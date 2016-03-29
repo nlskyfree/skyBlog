@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <typeAliases>
+  	<!-- 批量别名定义,指定包名,mybatis自动扫描包中的po类,自动定义别名,别名就是类名 -->
+  	<package name="com.nlskyfree.front.domain"/>
+  	<package name="com.nlskyfree.back.domain"/>
+  </typeAliases>
+
+  <mappers>
+    <!-- 注册UserMapper.xml文件 -->
+    <mapper resource="mapper/UserMapper.xml"/>
+  </mappers>
+</configuration>
