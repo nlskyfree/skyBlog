@@ -34,7 +34,7 @@
 	第二种：/,所有访问的地址都由DispacherServlet进行解析，对于静态文件的解析需要配置不让DispacherServlet进行解析，
 	使用此种方式可以实现RESTful风格的url
      -->
-    <url-pattern>*.action</url-pattern>
+    <url-pattern>*.htm</url-pattern>
   </servlet-mapping>
   
 </web-app>

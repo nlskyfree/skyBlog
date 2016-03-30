@@ -12,6 +12,5 @@
 
   <mappers>
     <!-- 注册UserMapper.xml文件 -->
-    <mapper resource="mapper/UserMapper.xml"/>
   </mappers>
 </configuration>
